@@ -446,7 +446,8 @@ footer {
 
 #aboutme {
   background-color: #F9FAFB;
-  margin-bottom: 96px;
+  padding-bottom: 76px;
+  padding-top: 96px;
 }
 #aboutme .tt {
   display: flex;
@@ -503,6 +504,64 @@ footer {
 }
 .aboutme .aboutme_text div {
   margin-top: 24px;
+}
+
+#Skills {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.tt {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+.tt .text {
+  border: 1px solid silver;
+  display: flex;
+  padding: 4px 20px;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 28px;
+  border-radius: 12px;
+}
+.tt .text p {
+  color: #4B5563;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+h2 {
+  color: #4B5563;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.icon ul {
+  width: 1216px;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 48px;
+  margin-bottom: 100px;
+}
+.icon ul li {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  filter: grayscale(1);
+}
+.icon ul li:hover {
+  filter: grayscale(0);
 }
 
 .btm {
