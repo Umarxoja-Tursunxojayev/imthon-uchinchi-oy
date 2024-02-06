@@ -517,6 +517,7 @@ footer {
   margin-bottom: 48px;
 }
 .tt .text {
+  background-color: silver;
   border: 1px solid silver;
   display: flex;
   padding: 4px 20px;
@@ -562,6 +563,65 @@ h2 {
 }
 .icon ul li:hover {
   filter: grayscale(0);
+}
+
+#Experience {
+  padding-bottom: 96px;
+}
+
+.card {
+  margin-left: 165px;
+  width: 896px;
+  padding: 32px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06), 0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+  transition: 0.6s ease;
+}
+.card:hover {
+  transition: 0.6s ease;
+  box-shadow: 1px 2px 2px 1px rgba(39, 23, 23, 0.237), 1px 4px 3px 1px rgba(45, 22, 22, 0.176);
+}
+
+.card-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-logo h3 {
+  color: #111827;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+.card-logo p {
+  color: #374151;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.card-ul {
+  margin-top: 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.card-ul li {
+  width: 384px;
+  color: #4b5563;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .btm {
