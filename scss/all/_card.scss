@@ -5,6 +5,14 @@
     box-shadow: 0px 1px 28px -2px rgba(51, 34, 80, 0.2);
     margin-bottom: 48px;
     margin-top: 48px;
+    transition: 0.3s ease;
+    &:hover{
+        transition: 0.3s ease;
+  
+  -webkit-box-shadow: 3px 5px 18px 13px rgba(51, 34, 80, 0.2);
+  -moz-box-shadow: 3px 5px 18px 13px rgba(51, 34, 80, 0.2);
+  box-shadow: 3px 5px 18px 13px rgba(51, 34, 80, 0.2);
+          }
 
     &--img {
         border-radius: 12px 0px 0px 12px;
@@ -81,6 +89,40 @@
                 border-radius: 12px;
                 background: #E5E7EB;
             }
+        }
+
+        img {
+            margin-top: 24px;
+        }
+    }
+}
+
+.testi{
+    margin-top: 48px;
+    display: flex;
+    gap: 48px;
+    .testimonials_card {
+        display: flex;
+        min-width: 300px;
+        padding: 48px;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        flex: 1 0 0;
+        align-self: stretch;
+        border-radius: 12px;
+        background: var(--Gray-Default, #FFF);
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06), 0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+        transition: 0.3s ease;
+        img{
+            border-radius: 50%;
+        }
+        &:hover{
+      transition: 0.3s ease;
+
+-webkit-box-shadow: 3px 5px 18px 13px rgba(51, 34, 80, 0.2);
+-moz-box-shadow: 3px 5px 18px 13px rgba(51, 34, 80, 0.2);
+box-shadow: 3px 5px 18px 13px rgba(51, 34, 80, 0.2);
         }
     }
 }
