@@ -624,6 +624,89 @@ h2 {
   line-height: 24px;
 }
 
+#Work {
+  padding-bottom: 96px;
+}
+
+.work_card {
+  display: flex;
+  -webkit-box-shadow: 0px 1px 28px -2px rgba(51, 34, 80, 0.2);
+  -moz-box-shadow: 0px 1px 28px -2px rgba(51, 34, 80, 0.2);
+  box-shadow: 0px 1px 28px -2px rgba(51, 34, 80, 0.2);
+  margin-bottom: 48px;
+  margin-top: 48px;
+}
+.work_card--img {
+  border-radius: 12px 0px 0px 12px;
+  border-right: 1px solid #F3F4F6;
+  background: #F9FAFB;
+  width: 576px;
+  height: 480px;
+  display: flex;
+  padding: 48px;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+.work_card--img img {
+  width: 480px;
+  height: 384px;
+}
+.work_card--text {
+  width: 576px;
+  height: 480px;
+  padding: 48px;
+  justify-content: start;
+}
+.work_card--text h3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  align-self: stretch;
+  overflow: hidden;
+  color: var(--Gray-900, #111827);
+  text-overflow: ellipsis;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 23px;
+}
+.work_card--text p {
+  color: #4B5563;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.work_card--text div {
+  display: flex;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 8px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+.work_card--text div span {
+  color: #4B5563;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  display: flex;
+  padding: 4px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: #E5E7EB;
+}
+
 .btm {
   background-color: black;
   color: white;
