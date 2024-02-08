@@ -6,13 +6,14 @@
     margin-bottom: 48px;
     margin-top: 48px;
     transition: 0.3s ease;
-    &:hover{
+
+    &:hover {
         transition: 0.3s ease;
-  
-  -webkit-box-shadow: 3px 5px 18px 13px rgba(51, 34, 80, 0.2);
-  -moz-box-shadow: 3px 5px 18px 13px rgba(51, 34, 80, 0.2);
-  box-shadow: 3px 5px 18px 13px rgba(51, 34, 80, 0.2);
-          }
+
+        -webkit-box-shadow: 3px 5px 18px 13px rgba(51, 34, 80, 0.2);
+        -moz-box-shadow: 3px 5px 18px 13px rgba(51, 34, 80, 0.2);
+        box-shadow: 3px 5px 18px 13px rgba(51, 34, 80, 0.2);
+    }
 
     &--img {
         border-radius: 12px 0px 0px 12px;
@@ -67,7 +68,6 @@
 
         div {
             display: flex;
-            display: flex;
             align-items: center;
             align-content: center;
             gap: 8px;
@@ -97,10 +97,11 @@
     }
 }
 
-.testi{
+.testi {
     margin-top: 48px;
     display: flex;
     gap: 48px;
+
     .testimonials_card {
         display: flex;
         min-width: 300px;
@@ -114,15 +115,20 @@
         background: var(--Gray-Default, #FFF);
         box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06), 0px 4px 3px 0px rgba(0, 0, 0, 0.07);
         transition: 0.3s ease;
-        img{
-            border-radius: 50%;
-        }
-        &:hover{
-      transition: 0.3s ease;
 
--webkit-box-shadow: 3px 5px 18px 13px rgba(51, 34, 80, 0.2);
--moz-box-shadow: 3px 5px 18px 13px rgba(51, 34, 80, 0.2);
-box-shadow: 3px 5px 18px 13px rgba(51, 34, 80, 0.2);
+        img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            flex-shrink: 0;
+        }
+
+        &:hover {
+            transition: 0.3s ease;
+
+            -webkit-box-shadow: 3px 5px 18px 13px rgba(51, 34, 80, 0.2);
+            -moz-box-shadow: 3px 5px 18px 13px rgba(51, 34, 80, 0.2);
+            box-shadow: 3px 5px 18px 13px rgba(51, 34, 80, 0.2);
         }
     }
 }

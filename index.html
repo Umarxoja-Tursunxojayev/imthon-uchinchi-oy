@@ -11,6 +11,43 @@
     <!-- main css -->
     <link rel="stylesheet" href="./css/style.min.css" />
     <title>Document</title>
+    <style>
+        html,
+        body {
+          position: relative;
+          height: 100%;
+        }
+    
+        body {
+          background: #eee;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color: #000;
+          margin: 0;
+          padding: 0;
+        }
+    
+        swiper-container {
+          width: 100%;
+          height: 100%;
+        }
+    
+        swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+    
+        swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      </style>
 </head>
 
 <body>
@@ -367,40 +404,115 @@
                     </div>
                     <h2>Nice things people have said about me:</h2>
                     <div class="testi">
-                        <div class="testimonials_card">
-                            <img src="./assets/images/doyra1.svg" alt="">
-                            <p>“Job well done! I am really impressed. He is very very good at what he does:) I would
-                                recommend Sagar and will rehire in the future for Frontend development.”</p>
-                            <h3>Dilshod Buymurodov</h3>
-                            <p>Founder - Paymart.uz</p>
+                        
+                     
+                      
+                        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30" 
+    slides-per-view="3">
+    <swiper-slide><div class="testimonials_card">
+        <img src="./assets/images/doyra1.svg" alt="">
+        <p>“Job well done! I am really impressed. He is very very good at what he does:) I would
+            recommend Sagar and will rehire in the future for Frontend development.”</p>
+        <h3>Dilshod Buymurodov</h3>
+        <p>Founder - Paymart.uz</p>
 
-                        </div>
-                        <div class="testimonials_card">
-                            <img src="./assets/images/doyra2.svg" alt="">
-                            <p>“Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.”</p>
-                            <h3>Djasur Djumaev</h3>
-                            <p>Co-Founder - Uzum.uz</p>
+    </div></swiper-slide>
+    <swiper-slide>   <div class="testimonials_card">
+        <img src="./assets/images/doyra2.svg" alt="">
+        <p>“Great guy, highly recommended for any COMPLEX front-end development job! His skills are
+            top-notch and he will be an amazing addition to any team.”</p>
+        <h3>Djasur Djumaev</h3>
+        <p>Co-Founder - Uzum.uz</p>
 
-                        </div>
-                        <div class="testimonials_card">
-                            <img src="./assets/images/doyra1.svg" alt="">
-                            <p>“Mukhriddin was extremely easy and pleasant to work with and he truly cares about the project being a success. Mukhriddin has a high level of knowledge and was able to work on my Full stack application without any issues.”</p>
-                            <h3>Avaz Aminov</h3>
-                            <p>PM - Solution Lab</p>
+    </div></swiper-slide>
+    <swiper-slide>  <div class="testimonials_card">
+        <img src="./assets/images/doyra1.svg" alt="">
+        <p>“Mukhriddin was extremely easy and pleasant to work with and he truly cares about the
+            project being a success. Mukhriddin has a high level of knowledge and was able to work
+            on my Full stack application without any issues.”</p>
+        <h3>Avaz Aminov</h3>
+        <p>PM - Solution Lab</p>
 
-                        </div>
+    </div></swiper-slide>
+    <swiper-slide>  <div class="testimonials_card">
+        <img src="./assets/images/doyra1.svg" alt="">
+        <p>“Mukhriddin was extremely easy and pleasant to work with and he truly cares about the
+            project being a success. Mukhriddin has a high level of knowledge and was able to work
+            on my Full stack application without any issues.”</p>
+        <h3>Avaz Aminov</h3>
+        <p>PM - Solution Lab</p>
+
+    </div></swiper-slide>
+    <swiper-slide>  <div class="testimonials_card">
+        <img src="./assets/images/doyra1.svg" alt="">
+        <p>“Mukhriddin was extremely easy and pleasant to work with and he truly cares about the
+            project being a success. Mukhriddin has a high level of knowledge and was able to work
+            on my Full stack application without any issues.”</p>
+        <h3>Avaz Aminov</h3>
+        <p>PM - Solution Lab</p>
+
+    </div></swiper-slide>
+    <swiper-slide>  <div class="testimonials_card">
+        <img src="./assets/images/doyra1.svg" alt="">
+        <p>“Mukhriddin was extremely easy and pleasant to work with and he truly cares about the
+            project being a success. Mukhriddin has a high level of knowledge and was able to work
+            on my Full stack application without any issues.”</p>
+        <h3>Avaz Aminov</h3>
+        <p>PM - Solution Lab</p>
+
+    </div></swiper-slide>
+   
+  </swiper-container>
+                        
                     </div>
                 </div>
             </div>
         </section>
+
+        <section id="Get">
+            <div class="container">
+                <div class="get">
+                    <div class="ttt">
+                        <div class="text">
+                            <p>Get in touch</p>
+                        </div>
+                      
+                    </div>  <h2 class="buxoriy">Imom Buxoriy bobomizning “Al Jome as sahih” kitobining eng birinchi hadisi shu hadis bilan
+                        boshlangan: “Innamal a’malu bin niyyati” ya’ni, “Barcha amallar niyatga bog’liq”.</h2>
+                         <div class="a">
+
+                            <a href="mailto:tursunhojayevumar@gmail.com">
+                                <img src="./assets/images/email.svg" alt="">
+                                tursunhojayevumar@gmail.com
+                            <img src="./assets/images/kopya.svg" alt="">
+                            </a>
+                         <a href="tel:+998998534540">
+                            <img src="./assets/images/tel.svg" alt="">
+                            +99899-853-45-40
+                        <img src="./assets/images/kopya.svg" alt="">
+                        </a>
+                         </div>
+                          
+                         <div class="icons">
+                          <div class="img">
+                            <img src="./assets/images/git.svg" alt="">
+                            <img src="./assets/images/Icon.svg" alt="">
+                            <img src="./assets/images/figma.svg" alt="">
+                          </div>
+                         </div>
+                </div>
+
+            </div>
+        </section>
     </main>
-    
+
 
     <footer>
         <div class="container">
 
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 </body>
 
 </html>
