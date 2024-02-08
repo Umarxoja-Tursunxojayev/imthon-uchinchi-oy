@@ -326,6 +326,9 @@ template {
 
 header {
   width: 100%;
+  position: fixed;
+  z-index: 555;
+  backdrop-filter: blur(8px);
 }
 header .nav {
   display: flex;
@@ -367,8 +370,15 @@ main {
   width: 100%;
 }
 
-footer {
+#footer {
   width: 100%;
+  background: #F9FAFB;
+  padding: 24px 80px;
+}
+#footer .foter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .about {
@@ -815,6 +825,21 @@ h2 {
   letter-spacing: -0.72px;
   text-decoration: none;
   margin-bottom: 15px;
+}
+
+.dark-mode body {
+  background: #333;
+  color: #fff;
+}
+.dark-mode .nav__list--item-link {
+  color: #fff;
+}
+.dark-mode .btm {
+  background-color: #4a5568;
+  color: #fff;
+}
+.dark-mode .about_text {
+  color: #fff;
 }
 
 .btm {

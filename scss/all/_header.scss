@@ -1,5 +1,8 @@
 header {
     width: 100%;
+    position: fixed;
+    z-index: 555;
+    backdrop-filter: blur(8px);
 
 
     .nav {
@@ -43,3 +46,6 @@ header {
         }
     }
 }
+
+
+    
